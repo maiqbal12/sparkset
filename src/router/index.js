@@ -108,6 +108,7 @@ const routes = [
           }
         ]
       },
+  
       {
         path: "/companies",
         component: () => import("../views/CompaniesPage.vue")

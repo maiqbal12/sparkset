@@ -72,6 +72,7 @@ AV.Cloud.afterSave("Client", request => {
                   (event.delay || 0)
               )
             ).setSeconds(0)
+            
           )
         )
     )
